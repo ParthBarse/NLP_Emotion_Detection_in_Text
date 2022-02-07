@@ -33,7 +33,7 @@ def main():
     st.title("Emotion Detection App")
     menu = ["Home"]
     choice = st.sidebar.selectbox("Menu", menu)
-    st.subheader("Home-Emotion In Text")
+    st.subheader("Home- Emotion In Text")
 
     with st.form(key='emotion_clf_form'):
         raw_text = st.text_area("Type Here")
