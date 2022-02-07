@@ -30,7 +30,7 @@ emotions_emoji_dict = {"anger": "😠", "disgust": "🤮", "fear": "😨😱", "
 
 # Main Application
 def main():
-    st.title("Emotion Classifier App")
+    st.title("Emotion Detection App")
     menu = ["Home"]
     choice = st.sidebar.selectbox("Menu", menu)
     st.subheader("Home-Emotion In Text")
